@@ -6,6 +6,11 @@ name: xhs-feedback
 description: "小红薯用户反馈洞察数据源（只读）：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红书、小红薯、xhs、rednote、笔记链接、博主主页、竞品监控、KOL筛选、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.2.3
+display_name: "小红薯用户反馈洞察｜高赞评论·需求提取·评论FAQ·改进线索"
+display_name_en: "Xiaohongshu Feedback"
+description_zh: "小红薯用户反馈洞察数据源（只读）：笔记详情、评论舆情、博主作品与粉丝获赞收藏、关键词搜笔记、爆款选题，输出结构化JSON供AI做评论区需求挖掘与反馈聚类"
+description_en: "Read-only Xiaohongshu feedback-mining data source, no login, no posting, liking or commenting, no ban risk. Search public notes by keyword (type/sort/time filters), fetch single-note details, scrape comment threads with recent-day filtering for AI sentiment classification and user-need extraction, and inspect creator posts plus follower/like/collect stats. Everything returns as structured JSON in one envelope for Excel, BI or AI workflows - mine high-like comments for product feedback, build comment FAQs, cluster user needs and turn improvement leads into a publishable report. Monthly caps: search 40, posts 30, comments 20; pay-per-use up to 10000 items per call."
+author: "新郑市怪奇信息技术工作室"
 category: 数据分析
 homepage: https://www.guaikei.com
 metadata:
